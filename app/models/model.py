@@ -22,6 +22,8 @@ def gen (DOB):
         message = "You are part of gen X"
     if DOB <=1964 and DOB>1946:
         message = "You are a baby boomer"
+    if DOB > 1995:
+        message = "You are searching outside the parameters"
     return message
 
-print (gen(DOB))
+# print (gen(DOB))

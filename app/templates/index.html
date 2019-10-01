@@ -14,7 +14,7 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4"> Welcome to the Genergation Predictor Website</h1>
+    <h1 class="display-4"> Welcome to the Generation Conversion Website</h1>
     <head>
         <meta charset="UTF-8">
         <title>Display data</title>
@@ -28,23 +28,12 @@
         <button type="button" onclick="displayDate()">Show Date</button>
         <p id="showDate"></p>
 
-    <p class="lead">Select which year you were born: </p>
+    <p class="lead">Input the year you would like to search: </p>
 
 
   </div>
-  <form >
+  <form method = "POST" action = "/results">
     <label for="userdata">Birth year:</label>
     <input type='text' name='userdata'>
     <input type='submit'>
   </form>
-
-  <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">1946-1960</a>
-    <a class="dropdown-item" href="#">1961-1980</a>
-    <a class="dropdown-item" href="#">1981-1995</a>
-    <a class="dropdown-item" href="#">1995-Present</a>
-  </div

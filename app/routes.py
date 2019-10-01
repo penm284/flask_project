@@ -15,6 +15,7 @@ def results():
     #process data from form
     userdata = dict(request.form)
     print(userdata)
-    generation= userdata ['generation']
+    generation = int(userdata ['userdata'])
     output = model.gen(generation)
-    return "generation"
+    print(output)
+    return (output)
